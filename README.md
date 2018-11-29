@@ -44,8 +44,6 @@ The significance of the Jean-Philippe Grenier's work is that it generates flow m
 - [x] Milestone 1
 
   - [x] DX12 frame work
-  
-    - [ ] Compute shader
 
     - [x] Tessellation shader
 
@@ -57,21 +55,21 @@ The significance of the Jean-Philippe Grenier's work is that it generates flow m
 
     - [x] Single particle
 
-- [ ] Milestone 2
+- [x] Milestone 2
 
-  - [ ] Advanced wave particle rendering
+  - [x] Advanced wave particle rendering
 
-    - [ ] Multiple particles
+    - [x] Multiple particles
 
-    - [ ] Particle boundary interaction
+  - [x] Combine flow map with wave particle
 
-    - [ ] User interaction (create bump or dent) 
+    - [x] Find some interesting flow maps
 
-  - [ ] Combine flow map with wave particle
+    - [x] Use flow map to advect wave particle
 
-    - [ ] Find some interesting flow maps
+   - [x] Fluid simulation
 
-    - [ ] Use flow map to advect wave particle
+- [ ] Milestone 3
 
   - [ ] Improve rendering method
 
@@ -79,11 +77,7 @@ The significance of the Jean-Philippe Grenier's work is that it generates flow m
 
     - [ ] Subsurface scattering
 
-- [ ] Milestone 3
-
   - [ ] Update flow map in real-time
-
-    - [ ] Fluid simulation
 
     - [ ] Create blockers (rocks and etc.)
 
@@ -109,6 +103,64 @@ The significance of the Jean-Philippe Grenier's work is that it generates flow m
 
 ![](img/m1-3.gif)
 
+## Milestone 2 Update
+
+* Radius
+
+![](img/m2-1.gif)
+
+* Speed
+
+![](img/m2-2.gif)
+
+* Wave particle with flow map
+
+![](img/m2-3.gif)
+
+* Flow map
+
+![](img/m2-4.jpg)
+
+* Flow map driven texture
+
+![](img/m2-5.gif)
+
+* Wave particle
+
+![](img/m2-6.gif)
+
+* Horizontal blur
+
+![](img/m2-7.gif)
+
+* Vertical blur
+
+![](img/m2-8.gif)
+
+* Horizontal and vertical blur
+
+![](img/m2-9.gif)
+
+* Wave particle driven deviation
+
+![](img/m2-10.gif)
+
+* Fluid with different cell size
+
+![](img/m2fluid1.gif)
+
+* Fluid with different impulse location
+
+![](img/m2fluid2.gif)
+
+* Influence of fluid density/velocity dissipation
+
+![](img/dissipation.gif)
+
+* Flow map we will be using to guide the movement of wave particles
+
+![](img/m2fluid3.gif)
+
 ## References
 
 [River Editor Water Simulation in Real-Time](https://80.lv/articles/river-editor-water-simulation-in-real-time/)
@@ -132,3 +184,4 @@ The significance of the Jean-Philippe Grenier's work is that it generates flow m
 [A Similar Workflow](https://pdfs.semanticscholar.org/f548/cc7476e2e7e53b42befa19a376b61d12c7e9.pdf)
 
 [Caustics](http://madebyevan.com/webgl-water/)
+
